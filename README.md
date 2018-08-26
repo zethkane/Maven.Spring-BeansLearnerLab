@@ -137,7 +137,7 @@
 
 
 -
-## Part 10 - Test `Config` classes
+## Part 10.0 - Test `Config` classes
 * Each of the following `Test` classes should be annotated with
 	* `@SpringBootTest`
 		* indicates that this class is a Spring Boot test class
@@ -165,15 +165,21 @@
 * Create a `TestClassroomConfig` class in the `test` package.
 * The class should ensure that each `Bean` in the `TestClassroomConfig` class is configured as expected.
 
-## Part 11 - Using `@Component`
+
+
+
+
+
+
+## Part 11.0 - Using `@Component`
 * Annotating a class signature class with `@Component` allows Spring to register this class as a `Bean` implicitly.
 -
-### Part 11 - Create `Alumni` Class
+### Part 11.1 - Create `Alumni` Class
 * Create an `Alumni` component which autowires `Students` of the previous and `Instructors`
 * Create an `executeBootcamp` method which teaches each `Student` in the composite `Students` a `totalNumberOfHours` of `1200`.
 	* Annotate this method with `@PostConstruct`
 		* denotes that this method must be executed before the class is put into an IoC container
 
 -
-### Part 11.1 - Test `Alumni` Class
+### Part 11.2 - Test `Alumni` Class
 * Write a test class which ensures that each `Student` in the `Alumni` class has been taught `1200` hours upon injection of the `Alumni` dependency.
