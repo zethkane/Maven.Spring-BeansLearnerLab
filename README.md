@@ -16,6 +16,7 @@
 
 
 ## Developmental Notes
+* Do NOT clone this repository until the the instructions detail how to do so.
 * You may structure this project and the packaging how you please, however keep in mind that `@Configuration` scans from current directory down.
 * This project is nearly identical to the `LearnerLab` completed in the past until `Part 9`
 
