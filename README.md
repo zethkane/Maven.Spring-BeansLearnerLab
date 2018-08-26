@@ -21,8 +21,9 @@
 
 ### Part 0.0 - Generating Project
 * Navigate to [start.spring.io](https://start.spring.io/)
-* Search for `Web` in the `Search for Dependencies` input box
-* Search for `DevTools` in the `Search for Dependencies` input box
+* In the `Search for Dependencies` input box search for 
+	* `DevTools`
+	* `Web`
 * Select `Generate Project`
 * After the project has completed downloading, navigate to the download directory and unzip the project folder.
 * After unzipping the project folder, open the project via its `pom.xml` from IntelliJ > File > Open
