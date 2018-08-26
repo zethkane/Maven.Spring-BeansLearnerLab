@@ -28,6 +28,7 @@
 * After the project has completed downloading, navigate to the download directory and unzip the project folder.
 * After unzipping the project folder, open the project via its `pom.xml` from IntelliJ > File > Open
 	* Be sure to `Open as Project` when prompted 
+* At the root directory of the project, clone this repository and continue forth.
 
 
 ### Part 1.0 - Create `Person` Class
