@@ -20,7 +20,7 @@
 * This project is nearly identical to the `LearnerLab` completed in the past until `Part 9`
 
 ### Part 0.0 - Generating Project
-* Navigate to [start.spring.io](start.spring.io)
+* Navigate to [start.spring.io](https://start.spring.io/)
 * Search for `Web` in the `Search for Dependencies` input box
 * Select `Generate Project`
 * After the project has completed downloading, navigate to the download directory and unzip the project folder.
