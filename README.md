@@ -17,6 +17,7 @@
 
 ## Developmental Notes
 * You may structure this project and the packaging how you please, however keep in mind that `@Configuration` scans from current directory down.
+* This project is nearly identical to the `LearnerLab` completed in the past until `Part 9`
 
 ### Part 0.0 - Generating Project
 * Navigate to [start.spring.io](start.spring.io)
