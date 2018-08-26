@@ -165,11 +165,11 @@
 * Create a `TestClassroomConfig` class in the `test` package.
 * The class should ensure that each `Bean` in the `TestClassroomConfig` class is configured as expected.
 
+## Part 11 - Using `@Component`
+* Annotating a class signature class with `@Component` allows Spring to register this class as a `Bean` implicitly.
 -
 ### Part 11 - Create `Alumni` Class
-* Create an `Alumni` class which autowires `Students` of the previous and `Instructors`
-* Annotate the class signature class with `@Component`
-	* The annotation allows Spring to register this class as a `Bean` implicitly.
+* Create an `Alumni` component which autowires `Students` of the previous and `Instructors`
 * Create an `executeBootcamp` method which teaches each `Student` in the composite `Students` a `totalNumberOfHours` of `1200`.
 	* Annotate this method with `@PostConstruct`
 		* denotes that this method must be executed before the class is put into an IoC container
