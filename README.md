@@ -175,7 +175,7 @@
 * Annotating a class signature class with `@Component` allows Spring to register this class as a `Bean` implicitly.
 -
 ### Part 11.1 - Create `Alumni` Class
-* Create an `Alumni` component which autowires `Students` of the previous and `Instructors`
+* Create an `Alumni` component which autowires `Students` of the previous cohort and `Instructors`
 * Create an `executeBootcamp` method which teaches each `Student` in the composite `Students` a `totalNumberOfHours` of `1200`.
 	* Annotate this method with `@PostConstruct`
 		* denotes that this method must be executed before the class is put into an IoC container
