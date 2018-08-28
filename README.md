@@ -228,3 +228,12 @@
 ### Part 11.2 - Test `Alumni` Class
 * Write a test class which ensures that each `Student` in the `Alumni` class has been taught `1200` hours upon injection of the `Alumni` dependency.
 * Ensure the `numberOfHoursTaught` has been evenly distributed amongst each of the instructors.
+
+* **Tip:** How to derive `numberOfHoursTaught` dynamically
+```java
+int numberOfInstructors = instructors.size();
+int numberOfStudents = students.size();
+double numberOfHoursToTeachEachStudent = 1200;
+double numberOfHoursToTeach = numberOfHoursToTeachEachStudent * numberOfStudents;
+double numberOfHoursPerInstructor = numberOfHoursToTeach / numberOfInstructors;
+```
