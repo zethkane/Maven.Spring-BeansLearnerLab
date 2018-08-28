@@ -148,7 +148,7 @@
 
 -
 ### Part 10.1 - Create `StudentConfig`
-* **Note:** The creation of this class will demonstrate an implementation of bean registration in Spring.
+* **Note:** The creation of this class will demonstrate an implementation of _bean registration_ in Spring.
 * The class should define a method named `currentStudents()` which returns a `Students` representative of the current cohort of students.
 	* the method should be annotated with `@Bean(name = "students")`
 		* this ensures the Spring container registers the bean with the respective name.
