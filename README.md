@@ -18,7 +18,7 @@
 ## Developmental Notes
 * Do NOT clone this repository until completing `Part 0.0`
 * You may structure this project and the packaging how you please, however keep in mind that `@Configuration` scans from current directory down.
-* Until `Part 9`, this project is nearly identical to the `LearnerLab` completed in the past.
+* Until `Part 10`, this project is nearly identical to the `LearnerLab` completed in the past.
 
 ### Part 0.0 - Generating Project
 * Navigate to [start.spring.io](https://start.spring.io/)
