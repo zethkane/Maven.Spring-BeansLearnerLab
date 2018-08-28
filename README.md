@@ -226,4 +226,5 @@
 
 -
 ### Part 11.2 - Test `Alumni` Class
-* Write a test class which ensures that each `Studyent` in the `Alumni` class has been taught `1200` hours upon injection of the `Alumni` dependency.
+* Write a test class which ensures that each `Student` in the `Alumni` class has been taught `1200` hours upon injection of the `Alumni` dependency.
+* Ensure the `numberOfHoursTaught` has been evenly distributed amongst each of the instructors.
