@@ -169,7 +169,7 @@
 ### Part 10.3 - Create `ClassroomConfig`
 * The class should define a bean named `currentCohort()` which returns a `Classroom` object whose dependencies are `instructors` and `students`
 * The class should define a bean named `previousCohort()` which returns an `Classroom` object whose dependencies are `instructors` and `previousStudents`
-* **Note:** [it is sometimes useful](https://www.boraji.com/spring-dependson-annotation-example) (although not always necessary) to use the `@DependsOn` annotation to help the compiler and other readers of the code to understand what order beans should be executed.
+* **Note:** [it is sometimes useful](https://www.boraji.com/spring-dependson-annotation-example) (although not always necessary) to use the `@DependsOn` annotation to help the Spring framework and other readers of the code to understand what order beans should be executed.
 	* `@DependsOn({"instructors", "students"})`
 
 	
