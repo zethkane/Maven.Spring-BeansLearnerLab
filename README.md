@@ -129,7 +129,6 @@
 * Each of the following `Config` classes should have a class-signature annotation of `@Configuration`
 	* this annotation tells spring to scan for `@Bean` definitions within the scope of the class, and register them to the [IOC Container](https://www.tutorialspoint.com/spring/spring_ioc_containers.htm) for `Inject` and `Autowire` use later.
 * Classroom should define getters for each of its fields.
-* **Tip:** if testing fails, begin researching and attempting to use the `@Qualifier` annotation.
 
 ### Developmental Notes
 * `@Autowired`
